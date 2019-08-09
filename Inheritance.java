@@ -16,6 +16,12 @@ class Truck extends Vehicle {
     }
 }
 
+public interface Test {
+    default public int start() {
+
+    }
+}
+
 class InheritanceExample {
     public static void main(String[] args) {
         Car c = new Car();
