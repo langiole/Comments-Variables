@@ -1,36 +1,27 @@
-class A {
-    String str = "This str is from class A";
-
-    public String getClassName() {
-        return "This method is from class A";
+class Vehicle {
+    public String honk() {
+        return "Beep! Beep!";
     }
 }
 
-class B extends A {
-    String str = "This str is from class B";
-    
-    public String getClassName() {
-        return "This method is from class B";
+class Car extends Vehicle {    
+    int wheels = 4;
+}
+
+class Truck extends Vehicle {    
+    int wheels = 18;
+
+    public String honk() {
+        return "Honk! Honk!";
     }
 }
 
-class C extends B { }
-
-class Example {
-    // 
+class InheritanceExample {
     public static void main(String[] args) {
-        A a = new A();
-        B b = new B();
-        // C c = new C();
+        Car c = new Car();
+        Truck t = new Truck();
 
-        System.out.println("Class A variable: " + a.str);
-        System.out.println("Class B variable: " + b.str);
-        // System.out.println("Class C variable: " + c.str);
-
-        System.out.println();
-
-        System.out.println("Class A method: " + a.getClassName());
-        System.out.println("Class B method: " + b.getClassName());
-        // System.out.println("Class C method: " + c.getClassName());
+        System.out.println("Car goes " + c.honk());
+        System.out.println("Truck goes " + t.honk());
     }
 }
