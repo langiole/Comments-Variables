@@ -16,16 +16,16 @@ abstract class UserInput {
 
 class Calculator extends UserInput implements ComplexCalculator {
     public void add(int x, int y) {
-        System.out.println("x + y = " + (x + y));
+        System.out.printf("%d + %d = %d\n", x, y, (x + y));
     }
     public void sub(int x, int y) {
-        System.out.println("x - y = " + (x - y));
+        System.out.printf("%d - %d = %d\n", x, y, (x - y));
     }
     public void mul(int x, int y) {
-        System.out.println("x * y = " + (x * y));
+        System.out.printf("%d * %d = %d\n", x, y, (x * y));
     }
     public void div(int x, int y) {
-        System.out.println("x / y = " + ((float)x / (float)y));
+        System.out.printf("%d / %d = %.2f\n", x, y, ((float)x / (float)y));
     }
     public int getNum() {
         Scanner in = new Scanner(System.in);
