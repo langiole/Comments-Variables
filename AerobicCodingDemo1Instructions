@@ -1,3 +1,9 @@
+// This demo covers:
+// - polymorphism
+// - protected access modifier
+// - object array
+// - instanceof
+
 Write a program with the following classes:
 
 	- Student
@@ -22,12 +28,9 @@ along with a main class. The GraduateStudent and UndergraduateStudent classes mu
 
 8) For each student, call the generateID method with the student's corresponding index in the student array as the argument.
 
-9) For each student, print out the student's ID and their student status. Hint: use instanceof to determine their status
+9) For each student, print out the student's ID and their student status. Hint: instanceof
 
 Output:
 Student u0 is an undergraduate student
 Student g1 is an graduate student
 Student u2 is an undergraduate student
-
-
-
