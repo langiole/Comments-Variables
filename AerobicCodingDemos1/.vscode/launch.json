@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "AerobicCodingDemos1_14b1c4e2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DonelysDemo",
+            "request": "launch",
+            "mainClass": "DonelysDemo",
+            "projectName": "AerobicCodingAug15_be774256"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "AerobicCodingAug15_be774256"
+        }
+    ]
+}

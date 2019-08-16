@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AbdulDemo",
+            "request": "launch",
+            "mainClass": "AerobicCodingAug15.AbdulDemo",
+            "projectName": "JuMP_8b59862b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LeeDemo",
+            "request": "launch",
+            "mainClass": "LeeDemo",
+            "projectName": "JuMP_8b59862b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LeeDemo",
+            "request": "launch",
+            "mainClass": "AerobicCodingAug15.LeeDemo",
+            "projectName": "JuMP_8b59862b"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Demo",
+            "request": "launch",
+            "mainClass": "AerobicCodingAug15.Demo",
+            "projectName": "JuMP_8b59862b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InterfaceExample",
             "request": "launch",
             "mainClass": "InterfaceExample",
